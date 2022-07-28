@@ -1,0 +1,1049 @@
+*{
+    margin: 0%;
+}
+
+/* Header */
+.topnav .icon{
+    display:none;
+}
+
+.topnav{
+    width: 100%;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    padding: 20px 10%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerLogo{
+    cursor: pointer;
+}
+
+.topnav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 0px 9px;
+    position: relative;
+}
+
+.topnav ul li {
+    text-decoration: none;
+    color: #000000;
+    font-family: "Noto Sans JP";
+    font-size: 15px;
+    font-weight: 500; 
+}
+
+.topnav a{ 
+    display: inline-block;
+    list-style: none;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    font-family:"Noto Sans jp";
+    color: black;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 43px;
+    letter-spacing: 1.05px;
+}
+
+.topnav button{
+    width: 165px;
+    height: 50px;
+    border-radius: 21px;
+    padding: 0px 9px;
+    border-color: transparent;
+    background-color: #b72e33;
+    background-image: linear-gradient(45deg, #ff7d00 0%, #ff544f 100%);
+    color: #ffffffff;
+    font-family: "Noto Sans jp";
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: normal;
+    letter-spacing: 0.91px;
+    cursor: pointer;    
+}
+
+@media (max-width: 1366px){
+    .topnav ul li a{
+        font-size: 15px;
+        letter-spacing: 1px;       
+    }
+
+    .topnav .headerLogo{
+        margin-left: 60%;
+        width: 110px;
+        height: 34px;
+    }
+
+    .topnav button{
+        width: 110px;
+        height: 34px;
+        font-size: 16px;
+    }
+
+    .topnav button img{
+        height:14px;
+        width:auto
+    }
+
+    nav{
+        padding: 20px 5%;
+    }
+}
+
+@media (max-width:1080px){
+    .topnav ul li a {
+        text-decoration: none;
+        color: #000000;
+        font-family: "Noto Sans JP";
+        font-size: 18px;
+        font-weight: 500;
+    }
+}
+
+@media (max-width:1024px){
+    .topnav ul li a {
+        text-decoration: none;
+        color: #000000;
+        font-family: "Noto Sans JP";
+        font-size: 18px;
+        font-weight: 500; 
+    }
+}
+
+@media (max-width: 1194px){
+    .topnav ul li a{
+        font-size: 18px;       
+    }
+
+    .headerLogo{
+        width: 65px;
+        height: 21px;
+        padding:0px;
+    }
+
+    nav button{
+        width: 65px;
+        height: 21px;
+        font-size: 9px;
+    }
+
+    nav button img{
+        height:8px;
+        width:auto
+    }
+}
+
+@media (max-width: 800px){
+    .topnav .headerLogo{
+        width:20px;
+    }
+
+    .topnav ul{
+        display: none;
+    }
+}
+@media (max-width:768px){
+    .topnav.icon{
+        display:inline;
+    }
+
+    .topnav ul li a{
+        display: none;      
+    }
+}
+
+@media (max-width:428px){
+    .topnav{
+        justify-content: center;
+    }
+
+    .topnav button{
+        margin-right: 12%;
+        margin-top: 1px;
+        width: 100%;
+        height: 36px;
+        border-radius: 21px;
+        padding: 0px 19px;
+        border-color: transparent;
+        background-color: #b72e33;
+        background-image: linear-gradient(45deg, #ff7d00 0%, #ff544f 100%);
+        color: #ffffffff;
+        font-family: "Noto Sans jp";
+        font-size: 15px;
+        font-weight: 400;
+        letter-spacing: normal;
+        letter-spacing: 0.91px;
+        cursor: pointer; 
+    }
+}
+
+@media(max-width:390px){
+    .topnav .headerLogo{
+        width: 10px;
+    }
+}
+
+@media(max-width:320px){
+    .topnav .headerLogo{
+        margin-left: 50px;
+    }
+    /* .topnav button{
+        display: none;
+    } */
+}
+
+@media(max-width:2560px) and (min-width:1920px){
+    .topnav .headerLogo img{
+        width:300px;
+        height: 45px;
+    }
+
+    .topnav a{
+        font-size: 30px;
+    }
+
+    .topnav button{
+        width:170px;
+        height:50px;
+        font-size: 20px;
+    }
+}
+
+
+/* Beef and Hart */
+#bah{
+    padding: 0%;
+    width: 100%;
+    height: 876px;
+    background-image: url('../images/レイヤー_6.png') ;
+    display:flex;
+    flex-direction: row;
+}
+
+#bah .img, .detail{
+    flex: 50%;
+    padding-top: 190px;
+}
+
+#bah .img  {
+    padding: 10%;
+    cursor: pointer;
+}
+#bah .detail{
+    justify-content: space-between;
+    padding-right: 75px;
+
+}
+#bah .detail h1{
+    width: 100%;
+    height: 10%;
+    color: #1d1d20;
+    font-family: "Noto Sans jp";
+    font-size: 54px;
+    font-weight: 900;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+}
+#bah .deatil p{
+    width: 80%;
+    height: 246px;
+    color: #1d1d20;
+    font-family: "Noto Sans JP";
+    font-size: 15px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 38px;
+    text-align: left;
+}
+
+#bah .detail button{
+    width: 266px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #b72e33;
+    background-image: linear-gradient(45deg, #ff7d00 20%, #ff544f 80%);
+    border: none;
+    color: #fffefe;
+    text-transform: uppercase;
+    font-family: "Noto Sans jp";
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 0.91px;
+    line-height: normal;
+    cursor: pointer;
+}
+
+@media (max-width: 1366px){
+    #bah .img img {
+        width: 328px;
+        height: 278px;
+        padding-top: 10%;
+    }
+
+    #BH .detail h1{
+        font-size: 50px;
+    }
+
+    #BH .detail button{
+        width: 200px;
+        height: 35px;
+        font-size:13px;
+        text-align: center;
+    }
+}
+
+@media (max-width:1080px){
+    #bah .deatil p{
+        font-family: "Noto Sans JP";
+        font-size: 20px;
+        font-weight: 500;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 38px;
+        text-align: left;
+    }
+
+    #bah .detail button{
+        width: 266px;
+        height: 50px;
+        font-size: 15px;
+        text-align: center;
+    }
+}
+
+@media (max-width:1024px){
+    #bah .detail h1{
+        margin-top: -25%;
+    }
+
+    #bah .deatil p{
+        font-family: "Noto Sans JP";
+        font-size: 20px;
+        font-weight: 500;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 38px;
+        text-align: left;
+    }
+
+    #bah .detail button{
+        width: 266px;
+        height: 50px;
+        font-size: 15px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 1194px){
+    #bah {
+        height: 1050px;
+        /* display: flex;
+        flex-direction: column; */
+    }
+    #bah .detail p{
+        font-size: 20px;
+    }
+    #bah .detail button{
+        width: 266px;
+        height: 50px;
+        font-size: 15px;
+    }
+}
+
+@media (max-width:768px){
+    #bah {
+        height: 1050px;
+        display: flex;
+        flex-direction: column;
+    }
+    #bah .img{
+        flex: 30%;
+    }
+    #bah .detail{
+        flex: 70%;
+        padding-left: 30px;
+        justify-content:space-around;
+    }
+    #bah .img img{
+        /* padding: 0%; */
+        width: calc(100% - 30px);
+        height: 80%;
+    }
+    #bah .detail h1 {
+        width: 100%;
+        height: 210px;
+        color: #1d1d20;
+        font-family: "Noto Sans Jp";
+        font-size: 114px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 118px;
+    }
+
+    #bah .detail p{
+        width: 100%;
+        height: 400px;
+        font-size: 20px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 54px;
+    }
+
+    #bah .detail button{
+        width: 100%;
+        height: 90px;
+        border-radius: 45px;
+        background-color: #b72e33;
+        background-image: linear-gradient(45deg, #ff7d00 20%, #ff544f 80%);
+        color: #fffefe;
+        font-family: "Koz Go Pr 6 N";
+        font-size: 28px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: normal;
+        text-transform: uppercase;
+        border: none;
+        letter-spacing: 0.91px;       
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 600px){
+    #bah h1{
+        font-size: 50px;
+    }
+    #bah .img{
+        /* Style for "logo のコピー" */
+        width: 100%;
+        height: 350px;
+        margin-bottom: 35px;
+    }
+    #bah .detail h1{
+        width: 503px;
+        height: 210px;
+        color: #1d1d20;
+        font-family: "Poppins - Extra Bold";
+        font-size: 114px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 118px;
+        text-align: left;
+        /* Text style for "Beef and" */
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: normal;
+    } 
+}
+
+@media (max-width:428px){
+    #bah{
+        text-align: center;
+    }
+
+    #bah .img{
+        margin-left: 6%;
+        width:300px;
+        height:300px;
+    }
+
+    #bah .detail h1{
+        margin-left: 6%;
+        text-align: center;
+        margin-top: -200px;
+        color: #1d1d20;
+        font-family: "Poppins - Extra Bold";
+        font-size: 50px;
+        font-weight: 600;
+        font-style: normal;
+        text-align: left;
+        line-height: normal;
+    }
+
+    #bah .detail p{
+        margin-left:6% ;
+        margin-top: -40%;
+        width: 100%;
+        font-size: 18px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: normal; 
+    }
+
+    #bah .detail button{
+        margin-left: 6%;
+        padding: 0px 50px;
+        width:100%;
+        height:40px;
+        font-size: 15px;
+        text-align: center;
+        font-weight: 100;
+        font-style: normal;
+        letter-spacing: 1.05px;
+        line-height: normal;
+    }
+}
+
+@media(max-width:320px){
+    #bah .img{
+        position:relative ;
+        width:250px;
+    }
+    #bah .detail h1{
+        margin-left: 10%;
+    }
+    #bah .detail p{
+        margin-left: 12%;
+    }
+
+    #bah .detail button{
+        margin-left: 12%;
+        margin-top: 70%;
+        font-size: 10px;
+        width:100% ;
+        height: 40px;
+    }
+}
+
+@media(max-width:2560px) and (min-width:1920px){
+    #bah .detail .title h1{
+        font-size: 100px;
+    }
+    #bah p{
+        font-size: 22px;
+    }
+    #bah button{
+        width: 35px;
+        height:30px;
+        font-size: 18px;
+    }
+}
+
+/* WORK */
+#work {
+    width: 100%;
+    height: 650px;
+    background-color: #ffffff;
+}
+
+#work .heading h2{
+    /* Style for "Our Works" */
+    width: 100%;
+    height: 22px;
+    color: #ff7d00;
+    font-family: "Poppins - Extra Bold";
+    font-size: 28px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 38px;
+    text-align: center;
+    padding-top: 6%;
+    /* Text style for "Our Works" */
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+#work .name p{
+    /* Style for "MIKAGEの作品" */
+    width: 100%;
+    height: 36px;
+    color: #000000;
+    font-family: Poppins;
+    font-size: 38px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 38px;
+    text-align: center;
+    padding: 2%;
+    text-transform: uppercase;
+    /* Text style for "MIKAGE" */
+    font-family: "Poppins - Bold";
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 3.04px;
+    line-height: normal;
+    /* Text style for "の作品" */
+    font-family: "Noto Sans CJ Kjp";
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 3.04px;
+    line-height: normal;
+}
+
+#work .details{
+    width: 100%;
+}
+
+#work .details h5{
+    /* Style for "2020 summe" */
+    width: 100%;
+    height: 19px;
+    color: #000000;
+    font-family: "Poppins - Extra Bold";
+    font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 38px;
+    text-align: center;
+    padding: 5%;
+    /* Text style for "2, 020 sum" */
+    font-style: normal;
+    letter-spacing: 1.92px;
+    line-height: normal;
+}
+
+#work .details img{
+    /* Style for "rogo_cgx" */
+    width: 100%;
+    height: 235px;
+}
+
+#work .details p{
+    /* Style for "CRIMINAL G" */
+    width: 100%;
+    height: 50px;
+    color: #000000;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    text-transform: uppercase;
+    /* Text style for "CRIMINAL G" */
+    font-family: "Poppins - Bold";
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 1.6px;
+    line-height: 28.08px;
+    /* Text style for "クリミナルガールズ" */
+    font-family: "Koz Go Pr 6 N";
+    font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 2.08px;
+    line-height: 31.82px;
+    /* Text style for "X" */
+    font-family: "Koz Go Pr 6 N";
+    font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 2.08px;
+    line-height: 33.69px;
+}
+
+#work .details a{
+    /* Style for "https://cr" */
+    width: 197px;
+    height: 20px;
+    color: #ff7d00;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 35.56px;
+    text-align: left;
+    text-decoration: underline;
+    /* Text style for "h, ttps://" */
+    font-style: normal;
+    letter-spacing: 1.28px;
+    line-height: normal;
+}
+
+
+/* About */
+#about{
+    background-image: url('../images/bg.png');
+    width: 100%;
+    height: 547px;
+    text-align: center;
+    position: relative;
+}
+
+#about .title h1{
+    padding-top: 6%;
+    width: 100%;
+    height: 50px;
+    color: #ff7d00;
+    font-family: "Noto Sans JP";
+    font-size: 28px;
+    font-weight: 1500;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 38px;   
+}
+
+#about .sub-title h1{
+    padding-top: 3%;
+    width: 100%;
+    height: 31px;
+    color: #000000;
+    font-family: "Noto Sans JP";
+    font-size: 38px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 38px;
+    text-transform: uppercase;
+    letter-spacing: 3.04px;
+}
+
+#about .content p{
+    padding-top: 3%;
+    margin-left: 15%;
+    width: 70%;
+    height: 97px;
+    color: #000000;
+    font-family: "Noto Sans JP";
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 38px;
+    letter-spacing: 1.08px;
+    text-align: center;
+}
+
+#about .button{
+    display: flex;
+    justify-content: center;
+}
+
+#about .button div {
+    padding: 2%;
+}
+
+#about .button div a{
+    height: 60px;
+    color: #00aced;
+    font-family: "Noto Sans CJ Kjp";
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    letter-spacing: 1.08px;
+    line-height: normal;
+}
+
+@media (max-width:1080px){
+    #about .button div{
+        margin-top: 10%;
+    }
+}
+
+@media (max-width:1024px){
+    #about .button div{
+        margin-top: 2%;
+    }
+}
+
+@media (max-width: 1194px){
+    #about .sub-title{
+        margin-top: 2%;
+    }
+    #about .content{
+        margin-top: 2%;
+    }
+    #about .button{
+        margin-top: 5%;
+    }
+}
+
+@media (max-width: 800px){
+    #about .button{
+        margin-top: 10%;
+    }
+}
+
+@media (max-width:768px){
+    #about{
+        height:700px
+    }
+    #about div{
+        padding-top: 5%;
+    }
+}
+
+@media (max-width: 600px){
+    #about .content p{
+        margin-left: 2%;
+        margin-right: 2%;
+        font-size: 1px;
+    }
+}
+
+@media (max-width:428px){
+    #about{
+        width: 100%;
+        height: 750px;
+        text-align: center;
+    }
+    #about .sub-title h1{
+        font-size: 30px;
+    }
+    #about .content p{
+        text-align: center;
+        font-size: 15px;
+    }
+    #about .button div{
+        margin-top: 50%;
+    }
+}
+
+@media(max-width:390px){
+    #about .button{
+        margin-top: 30%;
+    }
+}
+
+@media(max-width:2560px) and (min-width:1920px){
+    #about .title h1{
+        padding-top: 2%;
+        font-size: 40px;
+    }
+    #about .content p{
+        font-size: 30px;
+        letter-spacing: 1.9px;
+        line-height: 50px;
+    }
+    #about .button{
+        padding-top: 50px;
+    }
+    #about .button div a{
+        font-size: 25px;
+    }
+}
+
+/* Company CSS */
+#company{
+    width: 100%;
+    height: 744px;
+    /* background-color: #f5f5f5; */
+    position: relative;
+    text-align: center;
+    
+}
+
+#company div{
+    padding-top: 1%;
+}
+
+#company .heading h2{
+    /* Style for "Company Pr" */
+    color: #ff7d00;
+    font-family: "Poppins";
+    font-size: 28px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 38px;
+    padding-top: 6%;
+}
+
+#company .content p{
+    /* Style for "会社概要について" */
+    color: #000000;
+    font-family: "Koz Go Pr 6 N";
+    font-size: 38px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 38px;
+    padding-top: 5px;
+    /* Text style for "会社概要について" */
+    letter-spacing: 3.04px;
+}
+
+#company table, td, th {  
+    border: 2px solid rgb(16, 16, 16);
+    text-align: left;
+}
+
+#company table{
+    border-collapse: collapse;
+    width: 80%;
+    position: relative;
+    left: 10%;
+}
+
+#company table tr:nth-child(odd){
+    background-color: #fff9f4;
+}
+
+#company th{
+    color: #000000;
+    font-family: "Noto Sans JP";
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 38px;
+    text-align: left;
+    letter-spacing: 2.08px;
+    padding-left: 4%;
+}
+
+#company td{
+    color: #000000;
+    font-family: "Noto Sans CJ Kjp";
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 38px;
+    text-align: left;
+    letter-spacing: 2.08px;
+    padding-left: 9%;
+}
+
+@media (max-width: 800px){
+    table {
+        border-collapse: collapse;
+        width: 90%;
+        position: relative;
+        left: 4%;
+    }
+}
+
+
+/* Contact CSS */
+#contact{
+    background: url("../images/長方形_4_のコピー_3.png");
+    width: 100%;
+    height: 365px;
+    background-color: #f5f5f5;
+    position: relative;
+    text-align: center;
+}
+
+#contact div{
+    padding-top: 1%;
+}
+
+#contact h2{
+    width: 100%;
+    height: 21px;
+    color: #ff7d00;
+    font-family: "Poppins - Extra Bold";
+    font-size: 28px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 38px;
+    padding-top: 6%;
+    text-align: center;
+    /* Text style for "Contact" */
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+#contact p{
+    /* Style for "連絡先について" */
+    width: 100%;
+    height: 36px;
+    color: #000000;
+    font-family: "Koz Go Pr 6 N";
+    font-size: 38px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 38px;
+    text-align: center;
+    /* Text style for "連絡先について" */
+    font-style: normal;
+    letter-spacing: 3.04px;
+    line-height: normal;
+}
+
+#contact button{
+    /* Style for "長方形 3" */
+    width: 266px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #b72e33;
+    background-image: linear-gradient(45deg, #ff7d00 0%, #ff544f 100%);
+    border: none;
+    color: #fffefe;
+    /*font-family: "Poppins";*/
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    /* Style for "日本語でメールを送る" */
+    font-family: "Koz Go Pr 6 N";
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 74px;
+    text-align: center;
+    margin-top: 1%;
+    /* Text style for "日本語でメールを送る" */
+    font-style: normal;
+    letter-spacing: 0.91px;
+    line-height: normal;
+}
+
+@media (max-width: 850px)
+{
+    #contact
+    {
+        padding: 15px;
+        margin-top: 30px;
+    }
+}
+@media (max-width: 600px) 
+{
+    #contact button
+    {
+        
+        width: 80%;
+    }
+}
+
+
+
+
+/* Footer CSS */
+.footer{
+    width: 100%;
+    height: 81px;
+    background-color: #ffffff;
+}
+
+.footer p{
+    width: 100%;
+    height: 22px;
+    color: #959595;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    padding:2% 0%;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 38px;
+    
+    /* Text style for "C, opyrigh" */
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
